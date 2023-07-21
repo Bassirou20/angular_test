@@ -1,0 +1,27 @@
+<div class="col-md-5 offset-3 mt-5 ">
+  <form [formGroup]="formGroup">
+    {{formGroup.controls["libelle"].errors|json}}
+    <div class="mb-3">
+      <label for="libelle" class="form-label">Libelle</label>
+      <input type="text" class="form-control" formControlName="libelle" id="libelle" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Description</label>
+      <input type="text" class="form-control" formControlName="description" id="description">
+      <div *ngIf="formGroup.controls['description'].errors && formGroup.controls['description'].touched" class="text-danger">
+        Le champ est requis
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="prix" class="form-label">prix</label>
+      <input type="number" class="form-control" formControlName="prix" id="prix">
+    </div>
+    <div class="mb-3">
+      <label for="quantite" class="form-label">quantité</label>
+      <input type="number" class="form-control" formControlName="quantite" id="quantite">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+  </form>
+
+</div>

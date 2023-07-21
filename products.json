@@ -1,0 +1,46 @@
+{
+  "products":[
+    {
+      "id":1,
+      "libelle":"coco lay lay",
+      "description":" boy bou gatt bi",
+      "quantite":1,
+      "prix":150
+    },
+    {
+      "id":2,
+      "libelle":"Coca",
+      "description":" daffa nekh",
+      "quantite":1,
+      "prix":150
+    },
+     {
+      "id":3,
+      "libelle":"poulet",
+      "description":" keine dou mom",
+      "quantite":1,
+      "prix":150
+    },
+    {
+      "id":4,
+      "libelle":"coco lay lay",
+      "description":" boy bou gatt bi",
+      "quantite":1,
+      "prix":150
+    },
+    {
+      "id":5,
+      "libelle":"Coca",
+      "description":" daffa nekh",
+      "quantite":1,
+      "prix":150
+    },
+     {
+      "id":6,
+      "libelle":"poulet",
+      "description":" keine dou mom",
+      "quantite":1,
+      "prix":150
+    }
+  ]
+}
